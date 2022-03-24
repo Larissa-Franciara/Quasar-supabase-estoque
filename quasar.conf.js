@@ -157,13 +157,13 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Quasar App`,
-        short_name: `Quasar App`,
-        description: `quasar-supabase`,
+        name: `Estoque Hipster`,
+        short_name: `Estoque Hipster`,
+        description: `Easy-to-handle stock`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
-        theme_color: '#027be3',
+        theme_color: '#2c9c6a',
         icons: [
           {
             src: 'icons/icon-128x128.png',
