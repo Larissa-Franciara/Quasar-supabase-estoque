@@ -11,12 +11,15 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title class="text-center">
+        <q-toolbar-title class="text-center text-h6">
           <q-avatar size="50px">
             <img src="https://images.vexels.com/media/users/3/130943/isolated/lists/6ce6689b20ca2489fed316da0c187450-etiqueta-de-diamante-moderno.png">
           </q-avatar>
           Hipsters Estoque
         </q-toolbar-title>
+
+        <dark-mode-toggle />
+
         <q-btn-dropdown flat color="white" icon="person">
           <q-list>
             <q-item clickable v-close-popup @click="handleLogout">
@@ -59,6 +62,7 @@
 
 <script>
 import EssentialLink from 'components/EssentialLink.vue'
+import DarkModeToggle from 'components/DarkModeToggle.vue'
 
 const linksList = [
   {
@@ -98,7 +102,8 @@ export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    EssentialLink,
+    DarkModeToggle
   },
 
   setup () {

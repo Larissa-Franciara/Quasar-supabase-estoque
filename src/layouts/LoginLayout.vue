@@ -3,7 +3,6 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title class="text-center">
-
           <q-avatar size="50px">
             <img src="https://images.vexels.com/media/users/3/130943/isolated/lists/6ce6689b20ca2489fed316da0c187450-etiqueta-de-diamante-moderno.png">
           </q-avatar>
